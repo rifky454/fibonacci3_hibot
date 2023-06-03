@@ -1,0 +1,224 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Halo", "Hai", "Selamat pagi", "Pagi", "Siang"],
+            "responses": ["Halo! Apa yang bisa saya bantu?", "Hai! Ada yang bisa saya bantu?", "Selamat pagi/siang! Ada yang bisa saya bantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Selamat tinggal", "Sampai jumpa", "Terima kasih", "Terima kasih banyak"],
+            "responses": ["Selamat tinggal! Sampai jumpa lagi.", "Sampai jumpa! Terima kasih sudah menghubungi kami.", "Terima kasih! Jika ada pertanyaan lain, jangan ragu untuk menghubungi kami."],
+            "context": [""]
+        },
+        {
+            "tag": "sejarah",
+            "patterns": ["Sejarah"],
+            "responses": ["Sejarah adalah studi tentang masa lalu yang melibatkan peristiwa, orang, dan budaya yang mempengaruhi dunia saat ini."],
+            "context": ["sejarah"]
+        },
+        {
+            "tag": "g30spki",
+            "patterns": ["Apa latar belakang peristiwa G30S PKI?", "Latar belakang G30S PKI?", "Mengapa terjadi G30S PKI?"],
+            "responses": ["G30S PKI dilatarbelakangi oleh dominasi ideologi Nasionalisme, Agama, dan Komunisme (NASAKOM) yang berlangsung sejak era Demokrasi Terpimpin diterapkan, yakni tahun 1959-1965 di bawah kekuasaan Presiden Soekarno. Hal lain yang menyebabkan mencuatnya gerakan ini adalah ketidakharmonisan hubungan anggota TNI dan PKI."],
+            "context": ["g30spki"]
+        },
+        {
+            "tag": "g30spki2",
+            "patterns": ["G30S PKI tahun berapa?", "Kapan terjadi G30S PKI?", "Tanggal G30S PKI?"],
+            "responses": ["Istilah G30S/PKI merujuk pada peristiwa pemberontakan PKI yang terjadi pada tanggal 30 September 1965. Peristiwa yang diduga dilakukan oleh Partai Komunis Indonesia itu terjadi selama dua hari satu malam tepatnya 30 September dan 1 Oktober 1965."],
+            "context": ["g30spki"]
+        },
+        {
+            "tag": "g30spki3",
+            "patterns": ["Gerakan 30 September", "G30S", "PKI", "Gerakan 30S PKI"],
+            "responses": ["Gerakan 30 September (G30S) adalah sebuah peristiwa berlatar belakang kudeta yang terjadi selama satu malam pada tanggal 30 September hingga 1 Oktober 1965 yang mengakibatkan gugurnya enam jenderal serta satu orang perwira pertama militer Indonesia dan jenazahnya dimasukkan ke dalam suatu lubang sumur lama di area Lubang Buaya, Jakarta Timur. Penyebutan peristiwa ini memiliki ragam jenis, Presiden Soekarno menyebut peristiwa ini dengan istilah GESTOK (Gerakan Satu Oktober), sementara Presiden Soeharto menyebutnya dengan istilah GESTAPU (Gerakan September Tiga Puluh), dan pada Orde Baru, Presiden Soeharto mengubah sebutannya menjadi G30S/PKI (Gerakan 30 September PKI). Sejarah penghianatan terbesar yang ada dalam sejarah Indonesia, PKI atau Partai Komunis Indonesia dianggap bertanggung jawab atas peristiwa ini."],
+            "context": ["g30spki"]
+        },
+        {
+            "tag": "g30spki4",
+            "patterns": ["siapa saja tokoh yang menjadi korban G30S PKI?"],
+            "responses": ["Jenderal Ahmad Yani, Letjen Raden Suprapto, Mayjen Donald Isaac Pandjaitan, Mayjen Sutoyo Siswomiharjo, dan Kapten Pierre Tendean"],
+            "context": ["g30spki"]
+        },
+        {
+            "tag": "tokoh_g30spki1",
+            "patterns": ["siapa Jendral Ahmad Yani?", "Ahmad Yani "],
+            "responses": ["Pahlawan Revolusi yang pertama adalah Jendral Ahmad Yani.Ahmad Yani lahir di Purworejo,Jawa Tengah pada 19 Juni 1922 silam.Karier militernya dimulai dengan mengikuti pendidikan Heiho di Magelang dan Pembela Tanah Air(PETA) di Bogor.Ahmad Yani kemudian diangkat menjadi komandan Tentara Keamanan Rakyat di Purwokerto.Ia terlibat dalam beberapa operasi penting pasca - Indonesia merdeka.Sebut saja pemberontakan PKI di Madiun 1948,penumpasan DI / TII di Jawa Tengah dan juga pemberontakan PRRI."],
+            "context": ["g30spki"]
+        },
+
+        {
+            "tag": "tokoh_g30spki2",
+            "patterns": ["siapa Letjen Raden Suprapto", "Suprapto"],
+            "responses": ["Letjen Raden Suprapto,Letjen Raden Suprapto lahir di Purwokerto pada 20 JUni 1920 silam.Ia pernah mengenyam pendidikan militer di Akademi militer Kerajaan di Bandung.Pada awal kemerdekaan, Suprapto turut aktif dalam perebutan senjata jepang dan menjadi ajudan dari Panglima Besar Jenderal Sudirman.Letjen Suprapto pernah menjabat sebagai Deputi Kepala Staf AD di Sumatra,Kepala Staf Tentara dan Teritorium IV Diponegoro di Semarang,dan pernah menjabat sebagai Deputi II Menter Panglima Angkatan Darat."],
+            "context": ["g30spki"]
+        },
+
+        {
+            "tag": "tokoh_g30spki3",
+            "patterns": ["siapa Letjen S.Parman?", "S Parman"],
+            "responses": ["Letjen S.Parman, pemilik lengkap Siswondo Parman ini lahir di Wonosobo, Jawa Tengah, pada 4 Agustus 1928 silam.Setelah Indonesia merdeka, S.Parman lantas turut bergabung dengan Tentara Keamanan Rakyat(TKR) yang menjadi cikal - bakal Tentara Nasional Indonesia.Dalam menimba ilmu kemiliteran, S.Parman pernah dikirim untuk mengikuti Sekolah Militer Amerika Serikat pada 1951. Ia juga pernah dikirim ke Inggris sebagai perwakilan Kedutaan Indonesia di sana."],
+            "context": ["g30spki"]
+        },
+        {
+            "tag": "tokoh_g30spki4",
+            "patterns": ["siapa Mayjen Mas Tirtodarmo Haryono?"],
+            "responses": [" Mayjen Mas Tirtodarmo Haryono atau yang lebih dikenal dengan nama M.T Haryono merupakan pahlawan revolusi kelahiran Surabaya,Jawa Timur, pada 20 Januari 1924. Sebelum bergabung dengan kemiliteran, M.T Haryono pernah mengenyam pendidikan di Sekolah Kedokteran atau Ika Dai Gaku di Jakarta.Berkat kelihaiannya dalam menguasai bahasa asing, pahlawan yang namanya juga diabadikan sebagai nama jalan di kawasan Tebet,Jakarta Selatan ini kerap mengikuti perundingan yang diadakan Indonesia dengan pihak Belanda maupun Inggris."],
+            "context": ["g30spki"]
+        },
+        {
+            "tag": "tokoh_g30spki5",
+            "patterns": ["siapa Mayjen Donal Isaac Pandjaitan?", ""],
+            "responses": ["Mayjen Donal Isaac Pandjaitan, Mayjen Donal Isaac Pandjaitan atau D.I Pandjaitan lahir pada 9 Juni 1925 di Balige, Tapanuli, Sumatra Utara.D.I Pandjaitan juga menjadi salah satu sosok yang membentuk Tentara Keamanan Rakyat dan diangkat menjadi Komandan Batalyon.Sederet posisi penting pernah diembanya.Sebut saja Komandan Pendidikan Divisi IX / Benteng di Bukittinggi, Kepala Staf Umum IV Komandan Tentara Sumatera, dan pernah ditugaskan sebagai atase MiliterRI di Bonn,Jerman Barat"],
+            "context": ["g30spki"]
+        },
+        {
+            "tag": "tokoh_g30spki6",
+            "patterns": ["siapa Mayjen Sutoyo Siswomiharjo?"],
+            "responses": ["Mayjen Sutoyo Siswomiharjo lahir di Kebumen, Jawa Tengah pada 28 Agustus 1922. Seperti para pendahulunya, setelah kemerdekaan Indonesia, Sutoyo bergabung dengan TKR pada bagian kepolisian dan menjadi anggota Corps Polisi Militer pada saat itu.Selain menjabat sebagai Kepala Bagian Organisasi Resimen II Polisi Tentara di Purworejo, Sutoyo juga pernah menjadi ajudan dari Kolonel Gatot Subroto."],
+            "context": ["g30spki"]
+        },
+        {
+            "tag": "tokoh_g30spki7",
+            "patterns": ["siapa Kapten Pierre Tendean?"],
+            "responses": ["Kapten Pierre Tendean Pahlawan revolusi yang terakhir adalah Kapten Pierre Tendean.Pierre Tendean lahir di Jakarta, 21 Februari 1939. Setelah lulus dari Akademi Militer pada 1962, ia lantas mendapatkan mandat untuk menjabat Komandan Peleton Batalyon Zeni Tempur 2 Komando Daerah Militer II / Bukit Barisan di Medan.Peristiwa kelam G30S PKI yang turut menyeretnya terjadi pada saat ia menjadi ajudan Jenderal Nasution yang saat itu menjabat sebagai Menteri Koordinator Pertahanan dan Keamanan / Kepala Staf Angkatan Bersenjata."],
+            "context": ["g30spki"]
+
+        },
+
+        {
+            "tag": "proklamasi",
+            "patterns": ["Bagaimana Sejarah Proklamasi Kemerdekaan Indonesia?"],
+            "responses": ["Proklamasi Kemerdekaan Indonesia merupakan salah satu peristiwa sejarah yang paling penting bagi rakyat Indonesia. Proklamasi kemerdekaan merupakan peristiwa saat Ir. Soekarno membacakan teks Proklamasi Kemerdekaan Indonesia pada tanggal 17 Agustus 1945 dan setelah pembacaan teks tersebut Indonesia merdeka."],
+            "context": ["Proklamasi"]
+        },
+        {
+            "tag": "tokoh_penulis_naskah",
+            "patterns": ["siapa tokoh penulis naskah teks proklamasi?"],
+            "responses": ["Sayuti Melik berperan sebagai notulis dalam rapat perumusan naskah proklamasi di rumah Laksamana Maeda pada 16 Agustus 1945. Naskah proklamasi adalah buah pikir Soekarno, Mohammad Hatta, dan Achmad Soebardjo."],
+            "context": ["Proklamasi"]
+        },
+
+        {
+            "tag": "tokoh_penjahit_bendera",
+            "patterns": ["siapa penjahit bendera merah putih?"],
+            "responses": ["Ibu Fatmawati"],
+            "context": ["fatmawati"]
+        },
+
+        {
+            "tag": "tokoh_pengibar_bendera",
+            "patterns": ["siapa 3 pemuda yang pertama kali mengibarkan bendera merah putih?"],
+            "responses": ["Surastri Kusumo Trimurti, Suhud Sastro Kusumo, dan Latief Hendraningrat"],
+            "context": ["bendera merah putih"]
+        },
+
+        {
+            "tag": "tokoh_pencipta_lagu",
+            "patterns": ["siapa tokoh pencipta lagu indonesia raya?"],
+            "responses": [" Wage Rudolf Soepratman atau biasa dikenal WR. Supratman"],
+            "context": ["lagu indonesia raya"]
+        },
+        {
+            "tag": "Bandung_lautan_api",
+            "patterns": ["bagaimana terjadinya peristiwa sejarah bandung lautan api?", ""],
+            "responses": ["Bandung Lautan Api adalah peristiwa pembakaran Bandung oleh para pejuang Indonesia pada maret 1946. Tujuannya adalah untuk mempertahankan kemerdekaan Indonesia. Pada masa itu pihak sekutu memerintahkan agar Bandung segera dikosongkan untuk dijadikan markas. Untuk mencegah hal itu, masyarakat dan para pejuang bekerjasama untuk membakar Bandung."],
+            "context": ["bandung lautan api"]
+        },
+        {
+            "tag": "Bandung_lautan_api1",
+            "patterns": ["kapan terjadinya peristiwa bandung lautan api?"],
+            "responses": ["23 Maret 1946"],
+            "context": ["bandung lautan api"]
+
+        },
+        {
+            "tag": "Bandung_lautan_api2",
+            "patterns": ["siapa tokoh yang terlibat dalam peristiwa bandung lautan api?", "tokoh bandung lautan api?"],
+            "responses": ["1. Kolonel Abdul Haris Nasution (Komandan Divisi III ). 2. Muhammad Toha dan Ramdan (anggota BRI). 3. Atje Bastaman( memberikan istilah Bandung lautan api). 4. Rukana (Komandan Polisi militer Bandung). 5. Sutan Syahrir (memutuskan strategi bersama Kolonel Abdul Haris Nasution). 6. Ismail Marzuki( pencipta lagu Halo-Halo Bandung)"],
+            "context": ["bandung lautan api"]
+        },
+
+        {
+            "tag": "Ambarawa",
+            "patterns": ["Apa latar belakang terjadinya perang Ambarawa?", "Latar belakang perang Ambarawa?", "Mengapa terjadi perang Ambarawa", "Apa latar belakang terjadinya pertempuran Ambarawa?", "Latar Belakang Pertempurang Ambarawa?", "Mengapa terjadi Pertempuran Ambarawa"],
+            "responses": ["Penyebab pertempuran Ambarawa terjadi karena sekutu ingkar janji pada kesepakatan. Akhirnya terjadi pertempuran Ambarawa pasukan TKR melawan sekutu. Mayor Sumarto pemimpin pasukan TKR melakukan penyerangan pada 20 November ketika sekutu ingkar janji."],
+            "context": ["pertempuran ambarawa"]
+        },
+
+        {
+            "tag": "Ambarawa1",
+            "patterns": ["kapan terjadinya pertempuran ambarawa?", "tahun berapa terjadinya pertempuran ambarawa?", "tanggal berapa terjadinya pertempuran ambarawa"],
+            "responses": ["20 Oktober 1945"],
+            "context": ["pertempuran ambarawa"]
+        },
+
+        {
+            "tag": "Ambarawa2",
+            "patterns": ["apa tujuan pertempuran ambarawa?", "tujuan pertempuran ambarawa?"],
+            "responses": ["Tujuan pertempuran Ambarawa adalah untuk mempertahankan kemerdekaan Indonesia."],
+            "context": ["pertempuran ambarawa"]
+        },
+
+        {
+            "tag": "Peristiwa_Rengasdengklok",
+            "patterns": ["Apa latar belakang terjadinya Rengasdengklok?", "Latar belakang peristiwa rengasdengklok?"],
+            "responses": ["peristiwa penculikan Ir. Soekarno dan Moh Hatta yang dilakukan oleh golongan muda sebelum Proklamasi Kemerdekaan Indonesia dimana terjadinya perbedaan pendapat antara golongan muda ngolongan tua terkait proklamasi kemerdekaan indonesia."],
+            "context": ["rengasdengklok"]
+        },
+
+        {
+            "tag": "Peristiwa_Rengasdengklok1",
+            "patterns": ["kapan terjadinya peristiwa Rengasdengklok?", "dimana terjadinya peristiwa Rengasdengklok?"],
+            "responses": ["terjadi di Karawang jawa barat, 16 Agustus 1945 di rumah Dijauw Kie Siong"],
+            "context": ["rengasdengklok"]
+        },
+
+        {
+            "tag": "Peristiwa_Rengasdengklok2",
+            "patterns": ["kenapa golongan muda menculik golongan tua?", "apa tujuan dari penculikan Rengasdengklok?"],
+            "responses": ["peristiwa penculikan Ir. Soekarno dan Moh Hatta yang dilakukan oleh golongan muda sebelum Proklamasi Kemerdekaan Indonesia. Tujuan golongan muda ketika menculik Soekarno dan Moh Hatta adalah untuk menjauhkan kedua tokoh penting tersebut dari segala pengaruh pemerintah Jepang. Golongan muda mendesak agar kemerdekaan Indonesia untuk segera dilaksanakan tanpa campur tangan pemerintah Jepang."],
+            "context": ["rengasdengklok"]
+        },
+
+        {
+            "tag": "Surat_Kabar_Sin_Po ",
+            "patterns": ["apa itu Surat Kabar Sin Po ?", "apa yang dimaksud Surat Kabar Sin Po ?", "Surat Kabar Sin Po adalah?"],
+            "responses": ["Surat kabar Sin Po merupakan surat kabar Tionghoa yang dicetak menggunakan Bahasa Melayu yang terbit saat masa penjajahan kolonial."],
+            "context": ["sin po "]
+        },
+
+        {
+            "tag": "Surat_Kabar_Sin_Po1",
+            "patterns": ["peran dari surat kabar sin po ?", "makna dari Surat Kabar Sin Po ?", "fungsi Surat Kabar Sin Po?"],
+            "responses": ["Surat kabar Sin Po memiliki peran besar dan penting dalam sejarah Indonesia yakni menjadi harian surat kabar pertama yang memuat teks lagu kebangsaan Indonesia, Indonesia Raya. Harian Sin Po juga memelopori penggunaan nama 'Indonesia' untuk menggantikan penyebutan 'Hindia Belanda'. Surat kabar Sin Po sempat terhenti saat penjajahan Jepang tahun 1942 sebelum dibredel oleh pemerintah setelah peristiwa G30S/PKI tahun 1965."],
+            "context": ["sin po "]
+        },
+
+        {
+            "tag": "Organisasi_Budi_Utomo",
+            "patterns": ["apa yang dimaksud organisasi budi utomo ?", "organisasi budi utomo adalah?", "pengertian organisasi budi utomo?"],
+            "responses": ["organisasi yang digagas oleh Dr. Wahidin Sudirohusodo merupakan organisasi kepemudaan yang menjadi awal pergerakan kebangkitan nasional Indonesia lewat kaum terpelajar."],
+            "context": ["budi utomo "]
+        },
+
+        {
+            "tag": "Organisasi_Budi_Utomo1",
+            "patterns": ["kapan berdirinya organisasi budi utomo?", "tanggal berapa budi utomo berdiri?"],
+            "responses": ["20 Mei 1908 di jakarta dan sekarang setiap tanggal 20 mei diperingati hari kebangkitan nasional"],
+            "context": ["budi utomo "]
+        },
+
+        {
+            "tag": "Organisasi_Budi_Utomo2",
+            "patterns": ["siapa pendiri organisasi budi utomo?", "siapa penggagas berdirinya budi utomo?"],
+            "responses": ["Dr. Wahidin Sudirohusodo"],
+            "context": ["budi utomo "]
+
+        }
+
+
+
+    ]
+}
